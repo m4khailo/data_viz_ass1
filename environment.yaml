@@ -1,0 +1,13 @@
+# conda env create -f environment.yaml
+
+name: data-viz-ass1
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - pandas
+  - jupyterlab
